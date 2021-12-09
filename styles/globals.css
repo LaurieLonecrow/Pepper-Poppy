@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Quicksand:wght@300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  body {
+      @apply bg-red-200 min-h-screen w-screen relative
+  }  
   h1 {
     @apply text-2xl;
   }
@@ -16,18 +21,30 @@
 
     .menu-icon {
         @apply relative flex items-center justify-center
-        h-12 w-12 mx-auto bg-white shadow-lg 
-        text-green-300
-        hover:bg-yellow-300 hover:text-white
-        rounded-3xl hover:rounded-lg
+        h-12 w-12 mx-auto bg-white shadow-lg
+        text-green-500 hover:scale-125 hover:shadow-xl
+        hover:bg-green-500 hover:text-white
+        rounded-3xl 
         transition-all duration-300 ease-linear cursor-pointer;
     }
 
     .menu-text {
-        @apply absolute w-auto p-4 m-2 min-w-max 
+        @apply absolute w-auto p-4 m-2 min-w-max bottom-14
         rounded-md shadow-md
-        text-white bg-yellow-300 
+        text-white bg-yellow-400 
         text-lg font-bold
         transition-all duration-100 scale-0 origin-left;
     }
 }
+
+@layer utilities {
+    .animation-delay-1 {
+      animation-delay: 1s;
+    }
+    .animation-delay-2 {
+      animation-delay: 2s;
+    }
+    .animation-delay-3 {
+      animation-delay: 3s;
+    }
+  }

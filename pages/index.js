@@ -1,12 +1,13 @@
-import Head from 'next/head'
+
+//components
+import Header from '../components/Header'
+import MobileMenu from '../components/MobileMenu'
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Pepper and Poppy</title>
-      </Head>
-    
+      <Header/>
+      <MobileMenu/>
     </>  
   )
 }

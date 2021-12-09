@@ -15,10 +15,34 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
       green: colors.emerald,
-    }
+    },
+    extend: {
+      fontFamily: {
+        Londrina: ['Bungee Shade', 'sans-serif'],
+
+    },
+      keyframes:{
+        'fade-in-down': {
+          '0%': {
+              opacity: '0',
+              transform: 'translateY(-100px)'
+          },
+          '100%': {
+              opacity: '1',
+              transform: 'translateY(0px)'
+          },
+        },
+      },
   },
+  animation: {
+    'fade-in-down-1': 'fade-in-down 1s ease-in',
+    'fade-in-down-2': 'fade-in-down 1.5s ease-in',
+    'fade-in-down-3': 'fade-in-down 2s ease-in',
+
+},
   variants: {
     extend: {},
   },
   plugins: [],
+},
 }
