@@ -1,13 +1,13 @@
 
 //components
-import Header from '../components/Header'
-import MobileMenu from '../components/MobileMenu'
+import MainHeader from '../components/MainHeader'
+import Services from '../components/ServicesScrollBar';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <Header/>
-      <MobileMenu/>
+      <MainHeader/>
     </>  
-  )
-}
+  );
+};
+export default Home; 

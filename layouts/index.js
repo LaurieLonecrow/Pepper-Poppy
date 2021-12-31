@@ -1,12 +1,12 @@
+//components
 import MobileMenu from "../components/MobileMenu";
 
-export default function MainLayout(props) {
-
-
-    return (
-        <>
-        <main>{props.children}</main>
-        <MobileMenu />
-        </>
-    )
-}
+const MainLayout = (props) => {
+  return (
+     <>
+    <main className='relative'>{props.children}</main>
+    <MobileMenu />
+    </>
+  );
+};
+export default MainLayout; 
