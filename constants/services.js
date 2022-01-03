@@ -33,7 +33,7 @@ export const services = [
       id: 4,
     },
     {
-      heading: 'Kids Cuts',
+      heading: 'Childrens Cuts',
       subheading: "can she be any cuter?",
       image: [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640971429/Pepper-Poppy/PepperPoppy4_iymjjh.png'},

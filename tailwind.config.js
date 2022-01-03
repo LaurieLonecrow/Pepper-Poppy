@@ -11,14 +11,16 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.trueGray,
-      indigo: colors.blue,
+      indigo: colors.sky,
       red: colors.rose,
       yellow: colors.amber,
       green: colors.emerald,
     },
     extend: {
       fontFamily: {
-        Londrina: ['Bungee Shade', 'sans-serif'],
+        BungeeShade: ['Bungee Shade', 'sans-serif'],
+        Bungee: ['Bungee', 'sans-serif'],
+
 
     },
       keyframes:{

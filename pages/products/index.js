@@ -7,9 +7,6 @@ const Products = () => {
   return (
     <>
     <Logo/>
-    <img 
-    src="/dogPlaceholder.jpeg"
-    />
     <Heading content={`Products`}/>
     </>  
   );
