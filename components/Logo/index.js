@@ -1,9 +1,12 @@
+import Link from 'next/link';
 
 const Logo = () => {
   return (
-    <h1 className='absolute inset-x-0 top-0 mx-auto px-6 py-4 font-BungeeShade bg-clip-text text-transparent bg-gradient-to-r 
+    <Link href={'/'}>
+      <h1 className='cursor-pointer absolute inset-x-0 top-0 mx-auto px-6 py-4 font-BungeeShade bg-clip-text text-transparent bg-gradient-to-r 
     from-red-700 via-yellow-400 to-green-700 text-3xl drop-shadow-xl 
     md:py-0'>Pepper and Poppy</h1>
+    </Link>
     // <div className='relative'>
     //   <img src='/pepperPoppySVG.svg' 
     //   alt='pepper-poppy-logo' 
