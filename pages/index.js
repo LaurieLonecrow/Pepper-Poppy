@@ -1,12 +1,13 @@
 
 //components
-import MainHeader from '../components/MainHeader'
+import Heading from '../components/Heading';
+import MainHeader from '../components/MainHeader';
 import Services from '../components/ServicesScrollBar';
-
 const Home = () => {
   return (
     <>
       <MainHeader/>
+      <Services />
     </>  
   );
 };

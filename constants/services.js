@@ -10,9 +10,9 @@ export const services = [
     },
     {
       heading: "Cut and Color",
-      subheading: `She's like a Rainbow` ,
+      subheading: `highlights and lowlights` ,
       image: [
-        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640971429/Pepper-Poppy/PepperPoppy5_munvti.png'},
+        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1641342191/Pepper-Poppy/PepperPoppy8_lten8m.png'},
       ],
       id: 2,
     },
@@ -33,10 +33,10 @@ export const services = [
       id: 4,
     },
     {
-      heading: 'Childrens Cuts',
-      subheading: "can she be any cuter?",
+      heading: 'Fresh Cuts',
+      subheading: "old school barbering",
       image: [
-        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640971429/Pepper-Poppy/PepperPoppy4_iymjjh.png'},
+        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1641342191/Pepper-Poppy/PepperPoppy9_rxsu5g.png'},
       ],
       id: 5,
     },

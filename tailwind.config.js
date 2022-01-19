@@ -15,6 +15,7 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
       green: colors.emerald,
+      purple: colors.purple,
     },
     extend: {
       fontFamily: {
@@ -34,6 +35,14 @@ module.exports = {
               transform: 'translateY(0px)'
           },
         },
+        'circle-grow': {
+          '0%': {
+            transform: 'scale(10%)'
+          },
+          '100%':{
+            transform: 'scale(100%)'
+          },
+        },
       },
   },
   animation: {
@@ -42,6 +51,8 @@ module.exports = {
     'fade-in-down-3': 'fade-in-down 2s ease-in',
     'fade-in-down-4': 'fade-in-down 5s forwards',
     'fade-in-down-5': 'fade-in-down 5s reverse',
+    'circle-grow': 'circle-grow 2s ease-in',
+    'spin-slow': 'spin 60s linear',
 
 
 },
