@@ -8,8 +8,8 @@ const Services = () => {
   return (
     <ScrollBar contents={
         <>
-          {services.map(({heading, subheading, image, id}) => (
-              <div key={id} className='flex flex-col px-8 py-16 h-60'>
+          {services.map(({heading, subheading, image}, id) => (
+              <div key={id} className='flex flex-col py-16 h-60'>
             <Content 
                  heading={heading}  
                  subheading={subheading} 
