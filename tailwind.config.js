@@ -21,7 +21,7 @@ module.exports = {
       fontFamily: {
         BungeeShade: ['Bungee Shade', 'sans-serif'],
         Bungee: ['Bungee', 'sans-serif'],
-        Agreable: ['Agreable', 'sans-serif'],
+        Dancing: ['Dancing', 'cursive'],
 
 
     },
