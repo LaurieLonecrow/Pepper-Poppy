@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('http://fonts.cdnfonts.com/css/agreable');
 
 @tailwind base;
 @tailwind components;
@@ -33,7 +34,7 @@
     .menu-text {
         @apply absolute w-auto p-2 m-2 min-w-max 
         rounded-md shadow-md
-        text-white bg-yellow-400 
+        text-white bg-yellow-200 
         text-base font-bold md:text-lg
         transition-all duration-100 scale-0 origin-top;
     }

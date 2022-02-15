@@ -7,7 +7,8 @@ import MainHeading from '../components/MainHeader/main';
 const Home = () => {
   return (
   <>      
-      <MainHeader/>
+      <MainHeading/>
+      {/* <MainHeader/> */}
       <Welcome/>
   </>  
   );

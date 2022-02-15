@@ -21,6 +21,7 @@ module.exports = {
       fontFamily: {
         BungeeShade: ['Bungee Shade', 'sans-serif'],
         Bungee: ['Bungee', 'sans-serif'],
+        Agreable: ['Agreable', 'sans-serif'],
 
 
     },
@@ -35,12 +36,15 @@ module.exports = {
               transform: 'translateY(0px)'
           },
         },
-        'circle-grow': {
+        'dance': {
           '0%': {
-            transform: 'scale(10%)'
+            transform: 'rotate(10deg)'
           },
-          '100%':{
-            transform: 'scale(100%)'
+          '50%':{
+            transform: 'rotate(-10deg)'
+          },
+          '100%': {
+            transform: 'rotate(10deg)'
           },
         },
       },
@@ -51,7 +55,7 @@ module.exports = {
     'fade-in-down-3': 'fade-in-down 2s ease-in',
     'fade-in-down-4': 'fade-in-down 5s forwards',
     'fade-in-down-5': 'fade-in-down 5s reverse',
-    'circle-grow': 'circle-grow 2s ease-in',
+    'dance': 'dance 2s infinite',
     'spin-slow': 'spin 60s linear',
 
 
