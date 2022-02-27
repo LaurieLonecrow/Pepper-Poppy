@@ -6,7 +6,6 @@ import Services from '../../components/ServicesScrollBar';
 const ServicesPage = () => {
   return (
     <>
-      {/* <Logo/> */}
       <Services/>       
     </>  
   );

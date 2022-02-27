@@ -8,7 +8,6 @@ const Home = () => {
   return (
   <>      
       <MainHeading/>
-      {/* <MainHeader/> */}
       <Welcome/>
   </>  
   );

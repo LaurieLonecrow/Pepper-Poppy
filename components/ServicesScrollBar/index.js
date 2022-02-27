@@ -1,6 +1,6 @@
 //components
 import ScrollBar from './scrollBar';
-import Content from '../../components/Content'
+import ServiceContent from '../ServiceContent'
 import Images from '../../components/Images';
 import { services } from '../../constants/services';
 
@@ -10,7 +10,7 @@ const Services = () => {
         <>
           {services.map(({heading, subheading, image}, id) => (
               <div key={id} className='flex flex-col py-16 h-60'>
-            <Content 
+            <ServiceContent 
                  heading={heading}  
                  subheading={subheading} 
                  source={<Images source={image[0].source}/>} 

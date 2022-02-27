@@ -7,6 +7,7 @@ const MainLayout = (props) => {
     <>
     <main>{props.children}</main>
     <MobileMenu />
+    <Footer/>
   </>
   );
 };

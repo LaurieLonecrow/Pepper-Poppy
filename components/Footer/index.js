@@ -1,8 +1,8 @@
 
 const Footer = () => {
     return (
-        <section className={`absolute top-0 w-screen bg-red-900`}>
-            <h1 className={`text-8xl italic`}> Get in Touch</h1>
+        <section className={`p-8 bg-red-200`}>
+            <h1 className={`text-center text-3xl italic text-white`}> Get in Touch</h1>
         </section>
     );
 };

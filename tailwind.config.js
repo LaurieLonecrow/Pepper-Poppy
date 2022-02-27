@@ -21,7 +21,8 @@ module.exports = {
       fontFamily: {
         BungeeShade: ['Bungee Shade', 'sans-serif'],
         Bungee: ['Bungee', 'sans-serif'],
-        Dancing: ['Dancing', 'cursive'],
+        Licorice: ['Licorice', 'cursive'],
+        Quicksand: ['Quicksand', 'sans-serif']
 
 
     },
@@ -47,6 +48,14 @@ module.exports = {
             transform: 'rotate(10deg)'
           },
         },
+        'appear-up': {
+          '0%': {
+            transform: 'translateY(20px)',
+        },
+        '100%': {
+            transform: 'translateY(0px)',
+        },
+        }
       },
   },
   animation: {
@@ -57,8 +66,7 @@ module.exports = {
     'fade-in-down-5': 'fade-in-down 5s reverse',
     'dance': 'dance 2s infinite',
     'spin-slow': 'spin 60s linear',
-
-
+    'appear-up': 'appear-up 1s linear',
 },
   variants: {
     extend: {},

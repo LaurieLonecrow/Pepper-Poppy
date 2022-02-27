@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -26,7 +26,6 @@
         h-12 w-12 mx-auto bg-white shadow-lg
         text-green-500 
         hover:scale-125 hover:shadow-xl 
-        /* hover:bg-green-500 hover:text-white  */
         rounded-3xl 
         transition-all duration-300 ease-linear cursor-pointer;
     }
@@ -38,6 +37,27 @@
         text-base font-bold md:text-lg
         transition-all duration-100 scale-0 origin-top;
     }
+    .menu-small-circle-1 {
+      @apply absolute w-[10px] h-[10px] rounded-3xl bg-green-600
+      transition-all duration-300 ease-linear scale-0;
+    }
+    .menu-small-circle-2 {
+    @apply absolute w-[4px] h-[4px] rounded-3xl bg-red-600
+    transition-all duration-300 ease-linear scale-0;
+    }
+    .menu-small-circle-3 {
+     @apply absolute w-[8px] h-[8px] rounded-3xl bg-purple-600
+    transition-all duration-300 ease-linear scale-0 ;
+    }
+    .menu-small-circle-4 {
+      @apply absolute w-[8px] h-[8px] rounded-3xl bg-indigo-600
+     transition-all duration-300 ease-linear scale-0 ;
+     }
+     .menu-small-circle-5 {
+      @apply absolute w-[8px] h-[8px] rounded-3xl bg-yellow-200
+     transition-all duration-300 ease-linear scale-0 ;
+     }
+
 }
 
 @layer utilities {

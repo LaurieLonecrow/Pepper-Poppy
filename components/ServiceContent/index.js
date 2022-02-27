@@ -4,9 +4,8 @@ import MenuIcon from "../MenuIcon";
 import Heading from "../Heading"
 import SubHeading from "../Subheading"
 
-const Content = ({heading, subheading, source}) => {
+const ServiceContent = ({heading, subheading, source}) => {
   return (
-    <>
     <>
     <div className='relative px-12 py-4'>
       <div className='absolute top-20 flex flex-col left-4 space-y-4 md:top-40 md:-left-20'>
@@ -19,7 +18,6 @@ const Content = ({heading, subheading, source}) => {
       <ul>{source}</ul>
     </div>
     </> 
-    </> 
   );
 };
-export default Content;
+export default ServiceContent;
