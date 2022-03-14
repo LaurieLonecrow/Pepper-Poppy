@@ -9,7 +9,7 @@ const Services = () => {
     <ScrollBar contents={
         <>
           {services.map(({heading, subheading, image}, id) => (
-              <div key={id} className='flex flex-col my-24 py-12 h-60'>
+              <div key={id} className='flex flex-col py-12 h-60'>
             <ServiceContent 
                  heading={heading}  
                  subheading={subheading} 
