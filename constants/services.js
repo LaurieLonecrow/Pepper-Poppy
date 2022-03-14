@@ -1,15 +1,5 @@
 export const services = [
-    {
-      heading: 'Curly Styles',
-      subheading: "curls for days",
-      image: [
-        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273107/Pepper-Poppy/PepperPoppy6-removebg-preview_bxldr0.png'},
-
-        // {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640971430/Pepper-Poppy/PepperPoppy6_vvrkac.png'},
-        {id: 2, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640970610/Pepper-Poppy/PepperPoppy1_zxrvd5.png'},
-      ],
-      id: 1,
-    },
+  
     {
       heading: "Cut and Color",
       subheading: `highlights and lowlights` ,
@@ -45,6 +35,17 @@ export const services = [
         // {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1641342191/Pepper-Poppy/PepperPoppy9_rxsu5g.png'},
       ],
       id: 5,
+    },
+    {
+      heading: 'Curly Styles',
+      subheading: "curls for days",
+      image: [
+        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273107/Pepper-Poppy/PepperPoppy6-removebg-preview_bxldr0.png'},
+
+        // {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640971430/Pepper-Poppy/PepperPoppy6_vvrkac.png'},
+        {id: 2, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640970610/Pepper-Poppy/PepperPoppy1_zxrvd5.png'},
+      ],
+      id: 1,
     },
       
 ]
