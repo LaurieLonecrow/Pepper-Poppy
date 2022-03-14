@@ -19,6 +19,6 @@ const Services = () => {
           ))}  
         </>}>
       </ScrollBar>
-  );
-};
+    );
+  };
 export default Services; 

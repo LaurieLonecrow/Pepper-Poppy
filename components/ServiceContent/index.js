@@ -1,5 +1,5 @@
 //components
-import { FaRegEye } from "react-icons/fa";
+import { FaBookDead } from "react-icons/fa";
 import MenuIcon from "../MenuIcon";
 import Heading from "../Heading"
 import SubHeading from "../Subheading"
@@ -12,7 +12,7 @@ const ServiceContent = ({heading, subheading, source}) => {
         <SubHeading content={subheading} /> 
         <Heading content={heading} />
         <div className={`absolute flex top-36 lg:top-24 left-6 md:left-0 text-3xl font-sans z-20` }>
-        <MenuIcon className={'border-2 border-green-500'} icon={<FaRegEye />} text={`See more`} link={"/"}/>
+        <MenuIcon className={'border-2 border-green-500'} icon={<FaBookDead />} text={`Book Now`} link={"https://squareup.com/appointments/book/kr1xtlegh95ars/L04SAB7524188/services"}/>
         </div>
       </div>
       <ul>{source}</ul>
