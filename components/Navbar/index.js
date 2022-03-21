@@ -9,7 +9,7 @@ const Navbar = ({className}) => {
       <ul className={`px-6 py-4 space-x-12 flex md:flex-col md:py-12 md:space-x-0 md:space-y-28 md:px-10 ${className}`}>
         <MenuIcon icon={<FaAnchor />} text={`Home`} link={"/"}/>
         <MenuIcon icon={<FaRegEye />} text={`Services`} link={"/services"}/> 
-        <MenuIcon icon={<FaAirFreshener />} text={`Products`} link={"/products"}/>                       
+        <MenuIcon icon={<FaAirFreshener />} text={`Pricing`} link={"/pricing"}/>                       
         <MenuIcon icon={<GrInstagram />} text={`Social`} link={"https://www.instagram.com/missipepperpoppy/"}/>   
       </ul>
     </div>

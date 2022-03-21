@@ -29,7 +29,7 @@ const Welcome = () => {
     <WelcomeImage source='https://res.cloudinary.com/lonecrow/image/upload/v1644422765/Pepper-Poppy/ACS_0124_eprsen.jpg'
         className={`top-96 md:top-[36rem] md:left-36 border-solid border-[8px] md:border-[24px] border-red-200`}/>
      </div>
-     <WelcomeContent content={Bio.intro} className={`px-6 py-4 font-Quicksand text-black text-2xl whitespace-pre-wrap md:text-3xl md:px-32 `}/>
+     <WelcomeContent content={Bio.intro} className={`px-6 font-Quicksand text-black text-2xl whitespace-pre-wrap md:text-3xl md:px-32`}/>
      <WelcomeContent content={Bio.about[0]} className={`px-6 py-4 font-Quicksand text-black text-2xl whitespace-pre-wrap md:text-3xl md:px-32 `}/>
      <WelcomeContent content={Bio.about[1]} className={`px-6 py-4 font-Quicksand text-black text-2xl whitespace-pre-wrap md:text-3xl md:px-32 `}/>
 

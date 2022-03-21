@@ -1,5 +1,5 @@
 //components
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import MobileMenu from "../components/MobileMenu";
 
 const MainLayout = (props) => {
@@ -7,7 +7,6 @@ const MainLayout = (props) => {
     <>
     <main>{props.children}</main>
     <MobileMenu />
-    <Footer/>
   </>
   );
 };
