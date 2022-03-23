@@ -11,7 +11,7 @@ export const services = [
     },
     {
       heading: 'Straight Shag',
-      subheading: "lengthing with layers",
+      subheading: "length and layers",
       image: [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273106/Pepper-Poppy/PepperPoppy7-removebg-preview_eacwwm.png'},
         // {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640971430/Pepper-Poppy/PepperPoppy7_gtwwf3.png'},
