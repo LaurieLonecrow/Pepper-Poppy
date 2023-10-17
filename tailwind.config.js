@@ -27,6 +27,14 @@ module.exports = {
 
     },
       keyframes:{
+        'flip-card': {
+          '0%': {
+              transform: 'rotateX(-15deg)'
+          },
+          '100%': {
+              transform: 'rotateX(0)'
+          },
+        },
         'fade-in-down': {
           '0%': {
               opacity: '0',
@@ -67,6 +75,7 @@ module.exports = {
     'dance': 'dance 2s infinite',
     'spin-slow': 'spin 60s linear',
     'appear-up': 'appear-up 1s linear',
+    'flip-card': 'flip-card 1s linear',
 },
   variants: {
     extend: {},

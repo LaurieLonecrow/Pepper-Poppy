@@ -1,10 +1,11 @@
+import Link from 'next/link';
 //components
 import { FaBookDead } from "react-icons/fa";
 import MenuIcon from "../MenuIcon";
 import Heading from "../Heading"
 import SubHeading from "../Subheading"
 
-const ServiceContent = ({heading, subheading, source}) => {
+const ServiceContent = ({heading, subheading, source, link}) => {
   return (
     <>
     <div className='relative px-12 py-4'>
@@ -15,7 +16,9 @@ const ServiceContent = ({heading, subheading, source}) => {
         <MenuIcon className={'border-2 border-green-500 my-12'} icon={<FaBookDead />} text={`Book Now`} link={"https://squareup.com/appointments/book/kr1xtlegh95ars/L04SAB7524188/services"}/>
         </div>
       </div>
+      <Link href={link}>
       <ul>{source}</ul>
+      </Link>
     </div>
     </> 
   );

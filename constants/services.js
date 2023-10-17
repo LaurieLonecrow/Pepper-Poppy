@@ -7,14 +7,22 @@ export const services = [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273106/Pepper-Poppy/PepperPoppy8-removebg-preview_qwsumx.png'},
       ],
       id: 2,
+      link: 'layers'
     },
     {
       heading: 'Shags',
       subheading: 'yeeeaah baby!',
       image: [
-        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273106/Pepper-Poppy/PepperPoppy7-removebg-preview_eacwwm.png'},
+        {id: 0, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273106/Pepper-Poppy/PepperPoppy7-removebg-preview_eacwwm.png'},
+      ],
+      styleImages: [
+        {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1662899429/Pepper-Poppy/IMG_4917_lnhpvd.jpg'},
+        {id: 2, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1662899429/Pepper-Poppy/IMG_4924_zrsn1p.jpg'},
+        {id: 3, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1662899429/Pepper-Poppy/IMG_4927_pzeb3v.jpg'},
+        {id: 4, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1662899429/Pepper-Poppy/IMG_5193_gvedir.jpg'},  
       ],
       id: 3,
+      link: 'shag'
     },
     {
       heading: 'Precision Bobs',
@@ -23,6 +31,7 @@ export const services = [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647272520/Pepper-Poppy/PepperPoppy3-removebg-preview_sw3sp8.png'},
       ],
       id: 4,
+      link: 'bob'
     },
     {
       heading: 'Barber Style / Clipper Cuts',
@@ -31,6 +40,7 @@ export const services = [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273106/Pepper-Poppy/PepperPoppy9-removebg-preview_yxpzhj.png'},
       ],
       id: 5,
+      link: 'barber'
     },
     {
       heading: 'Curly Cuts',
@@ -38,7 +48,8 @@ export const services = [
       image: [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1647273107/Pepper-Poppy/PepperPoppy6-removebg-preview_bxldr0.png'},
       ],
-      id: 1,
+      id: 6,
+      link: 'curls'
     },
     {
       heading: 'Classic Shapes',
@@ -47,6 +58,7 @@ export const services = [
         {id: 1, source: 'https://res.cloudinary.com/lonecrow/image/upload/v1640970610/Pepper-Poppy/PepperPoppy1_zxrvd5.png'},
       ],
       id: 1,
+      link: 'shapes'
     },
     
       
