@@ -67,8 +67,8 @@ export const Pricing =
     'Cancellation Policy': 
 `Cancellation Policy - Don’t do it, but if you must, please do so at least 48hrs in advance.  Any appointment canceled within 48hrs, will be subject to 50% cancellation fee.  Credit card is required to schedule an appointment.`,
 
-    prices: [[`    Cuts - $100/hr`,`
-    Color - $120/hr`],
+    prices: [[`    Cuts - $100/hr (**$105/hr)`,`
+    Color - $120/hr (**$125/hr)`],
     [`    All service totals include a consultation, color application / processing time / cut and finish.  Gratuity is not accepted!
 * Services rendered in under an hour are not charged for the full hour.`]]
   
