@@ -11,7 +11,6 @@ const Products = () => {
     <div className='my-20 px-4 md:px-32'>
     <Heading content={`Pricing`}/>
     <WelcomeContent content={Pricing.prices[0]} className={`py-4 font-Quicksand text-black text-2xl whitespace-pre-wrap `}/>
-    <WelcomeContent content={'**Small price increases beginning Nov 1st, 2023'} className={`py-4 font-Quicksand text-black text-2xl whitespace-pre-wrap `}/>
     <WelcomeContent content={Pricing.prices[1]} className={`py-4 font-Quicksand text-black text-2xl  `}/>
     <WelcomeContent content={Pricing.Deposits} className={`py-4 font-Quicksand text-black text-2xl  `}/>
     <WelcomeContent content={Pricing['Cancellation Policy']} className={`py-4 font-Quicksand text-black text-2xl  `}/>
