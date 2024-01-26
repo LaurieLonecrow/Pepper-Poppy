@@ -65,7 +65,7 @@ export const Pricing =
     Deposits : `$50 non refundable fee is required for appointments 2hrs or longer.  If your appointment is canceled, this charge will be applied to the rescheduled appointment.`,
 
     'Cancellation Policy': 
-`Cancellation Policy - Don’t do it, but if you must, please do so at least 48hrs in advance.  Any appointment canceled within 48hrs, will be subject to 50% cancellation fee.  Credit card is required to schedule an appointment.`,
+`Cancellation Policy - Please give at least 48 hours notice if you are unable to make your scheduled appointment. This ensures I have ample time to fill your time slot with someone from my cancelation list. Appointments canceled 24-48 hours in advance are subject to be charged 50% of services booked. Appointments canceled with 24 hours or less will be charged 100% of services booked.`,
 
     prices: [[`    Cuts - $105/hr`,`
     Color - $125/hr`],
