@@ -69,7 +69,7 @@ export const Pricing =
 
     prices: [[`    Cuts - $105/hr`,`
     Color - $125/hr`],
-    [`    All service totals include a consultation, color application / processing time / cut and finish.  Gratuity is not accepted!
+    [`    All service totals include a consultation, color application / processing time / cut and finish.  Gratuity is accepted, but is never expected!
 * Services rendered in under an hour are not charged for the full hour.`]]
   
 
