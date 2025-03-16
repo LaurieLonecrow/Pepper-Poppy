@@ -1,29 +1,29 @@
 
 const Header = () => {
-  const HeaderLetter = ({text, className}) => (
-        <h1 className={`font-Bungee text-6xl sm:text-8xl ${className}`}>{text}</h1>
+  const HeaderLetter = ({text}) => (
+        <h1>{text}</h1>
     );
   return (
-        <div className="fixed w-screen flex flex-col justify-center py-24 sm:px-20 md:flex-row md:pl-32">
-            <div className="flex w-screen justify-center">
-        <HeaderLetter className="animate-fade-in-down-1 md:mt-10 text-green-600 " text={`P`}/> 
-        <HeaderLetter className="animate-fade-in-down-2 md:mt-10 text-red-600" text={`e`}/> 
-        <HeaderLetter className="animate-fade-in-down-3 md:mt-10 text-indigo-500" text={`p`}/> 
-        <HeaderLetter className="animate-fade-in-down-1 md:mt-10 text-yellow-500" text={`p`}/> 
-        <HeaderLetter className="animate-fade-in-down-2 md:mt-10 text-green-600" text={`e`}/> 
-        <HeaderLetter className="animate-fade-in-down-3 md:mt-10 text-red-600" text={`r`}/> 
+        <div>
+            <div>
+        <HeaderLetter text={`P`}/> 
+        <HeaderLetter text={`e`}/> 
+        <HeaderLetter text={`p`}/> 
+        <HeaderLetter text={`p`}/> 
+        <HeaderLetter text={`e`}/> 
+        <HeaderLetter text={`r`}/> 
             </div>
-            <div className="flex w-screen justify-center">
-        <HeaderLetter className="animate-fade-in-down-1 md:mt-20 text-indigo-500"text={`A`}/> 
-        <HeaderLetter className="animate-fade-in-down-2 md:mt-20 text-yellow-500"text={`n`}/>
-        <HeaderLetter className="animate-fade-in-down-3 md:mt-20 text-green-600"text={`d`}/> 
+            <div>
+        <HeaderLetter text={`A`}/> 
+        <HeaderLetter text={`n`}/>
+        <HeaderLetter text={`d`}/> 
             </div>
-            <div className="flex w-screen justify-center">
-        <HeaderLetter className="animate-fade-in-down-1 md:mt-10 text-red-600" text={`P`}/>
-        <HeaderLetter className="animate-fade-in-down-2 md:mt-10 text-indigo-500" text={`o`}/>
-        <HeaderLetter className="animate-fade-in-down-3 md:mt-10 text-yellow-500" text={`p`}/>
-        <HeaderLetter className="animate-fade-in-down-1 md:mt-10 text-green-600" text={`p`}/>
-        <HeaderLetter className="animate-fade-in-down-2 md:mt-10 text-red-600" text={`y`}/>
+            <div>
+        <HeaderLetter text={`P`}/>
+        <HeaderLetter text={`o`}/>
+        <HeaderLetter text={`p`}/>
+        <HeaderLetter text={`p`}/>
+        <HeaderLetter text={`y`}/>
         </div>
         </div>       
   );
