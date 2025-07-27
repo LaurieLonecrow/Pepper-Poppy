@@ -4,19 +4,26 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rosybrown;
-  color:blanchedalmond;
-  padding: none;
+  background-color: #f9e9d3;
+  color: #403D39;
+  margin: 0;
 }
 
 .title {
   font-family: 'Quicksand';
   font-size: 40px;
+  padding: 0 20px;
 }
 
 .subtitle {
   position: absolute;
   right: 10px;
+
+  @media only screen and (min-width: 600px) {
+    position: inherit;
+    padding: 0 20px;
+
+  }
 }
 
 .header {
@@ -25,6 +32,10 @@ body {
   overflow-x: scroll;
   height: 200px;
   padding-top: 40px;
+
+  @media only screen and (min-width: 600px) {
+  height: 345px;
+  }
 }
 
 .welcome {
@@ -50,4 +61,17 @@ body {
 
 .icon {
   font-size: 30px;
+}
+
+.address-link {
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
 }
