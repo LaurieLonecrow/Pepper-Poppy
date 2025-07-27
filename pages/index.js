@@ -1,13 +1,19 @@
 
 //components
 import Welcome from '../components/Welcome';
-import MainHeader from '../components/MainHeader';
-import Services from '../components/ServicesScrollBar';
-import MainHeading from '../components/MainHeader/main';
+import Header from '../components/Header';
+import Title from '../components/Title';
+import Footer from '../components/Footer';
+import MobileMenu from '../components/MobileMenu';
+
 const Home = () => {
   return (
   <>      
-      <MainHeading/>
+      <Title/>
+      <Header/>
+      <Footer/>
+      <MobileMenu />
+
       <Welcome/>
   </>  
   );
