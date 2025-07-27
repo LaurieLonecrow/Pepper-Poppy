@@ -1,6 +1,6 @@
 
 import { FaBookDead} from "react-icons/fa";
-import MenuIcon from '../MenuIcon';
+import MenuIcon from '../NavItem';
 
 const Navbar = () => {
   return (

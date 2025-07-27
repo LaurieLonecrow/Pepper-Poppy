@@ -55,7 +55,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
+  padding-top: 20px;
   cursor: pointer;
 }
 

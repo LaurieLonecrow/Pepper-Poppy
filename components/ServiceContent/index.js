@@ -1,7 +1,7 @@
 import Link from 'next/link';
 //components
 import { FaBookDead } from "react-icons/fa";
-import MenuIcon from "../MenuIcon";
+import MenuIcon from "../NavItem";
 import Heading from "../Header"
 import SubHeading from "../Subheading"
 

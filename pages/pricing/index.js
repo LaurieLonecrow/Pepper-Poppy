@@ -4,7 +4,7 @@ import Heading from '../../components/Header'
 import WelcomeContent from '../../components/Welcome/welcomeContent';
 import { Pricing } from '../../constants/services';
 import { FaBookDead } from "react-icons/fa";
-import MenuIcon from "../../components/MenuIcon";
+import MenuIcon from "../../components/NavItem";
 
 const Products = () => {
   return (
