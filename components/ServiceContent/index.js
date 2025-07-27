@@ -2,7 +2,7 @@ import Link from 'next/link';
 //components
 import { FaBookDead } from "react-icons/fa";
 import MenuIcon from "../MenuIcon";
-import Heading from "../Heading"
+import Heading from "../Header"
 import SubHeading from "../Subheading"
 
 const ServiceContent = ({heading, subheading, source, link}) => {

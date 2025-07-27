@@ -1,6 +1,6 @@
 
 //components
-import Heading from '../../components/Heading'
+import Heading from '../../components/Header'
 import WelcomeContent from '../../components/Welcome/welcomeContent';
 import { Pricing } from '../../constants/services';
 import { FaBookDead } from "react-icons/fa";

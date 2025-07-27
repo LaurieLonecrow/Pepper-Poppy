@@ -1,3 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rosybrown;
+  color:blanchedalmond;
+  padding: none;
+}
+
+.title {
+  font-family: 'Quicksand';
+  font-size: 40px;
+}
+
+.subtitle {
+  position: absolute;
+  right: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  height: 200px;
+  padding-top: 40px;
+}
+
+.welcome {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  font-size: large;
+}
+
+.navbar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 30px;
+}

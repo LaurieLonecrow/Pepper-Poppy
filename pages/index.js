@@ -1,11 +1,13 @@
 
 //components
 import Welcome from '../components/Welcome';
-import MainHeading from '../components/MainHeader/main';
+import Header from '../components/Header'
+import Title from '../components/Title';
 const Home = () => {
   return (
   <>      
-      <MainHeading/>
+      <Title/>
+      <Header/>
       <Welcome/>
   </>  
   );
